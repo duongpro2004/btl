@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Account | NTT & Co.</title>
+        <link rel="stylesheet" href="./src/css/tmain.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/svg+xml" href="./images/header/favicon.svg">
+    </head>
+    <body>
+        <img src="./images/header/headerprod.jpg" style="display: none;">
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="./index.html"><img src="./images/header/complogo.png" alt="comp" width="225px"></a>
+                    </div>
+                    <nav>
+                        <ul class="nav-menu">
+                            <li class="nav-item"><a href="index.html">Trang chủ</a></li>
+                            <li class="nav-item"><a href="products.html">Sản phẩm</a></li>
+                            <li class="nav-item"><a href="#footer">Liên hệ</a></li>
+                            <li class="nav-item"><a href="account.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    <a href="cart.html"><img class="cart" src="./images/header/cart.svg"></a>
+                    <div class="toggle"><i class="fa fa-bars"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="formPage">
+                <div class="btn" id="removeLog" onclick="login()"> Dang nhap</div>
+                <div class="btn" id="removeReg" onclick="register()">Dang ki</div>
+                <form class= "showForm" id="loginForm">
+                    <h3>Dang nhap</h3>
+                    <input type="text" placeholder="Username" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit" class="btn">Dang nhap</button>
+                </form>
+                <form class="showForm" id="registerForm">
+                    <h3>Dang ki</h3>
+                    <input type="text" placeholder="Username" required>
+                    <input type="email" placeholder="E-mail" required>
+                    <input type="password" placeholder="Password" required>
+                    <small>Dong y voi dieu khoan*</small>
+                    <button type="submit" class="btn">Dang ky</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer" id="footer">
+            <div class="container">
+                <div class="child">
+                    <div class="footerChild1">
+                        <img src="images/header/complogo.png">
+                        <h4>Mail us at: <a href="mailto:abc@abc.xyz">abc@abc.xyz</a></h4>
+                    
+            </div>
+        </div>
+        <script src="./src/js/script.js"></script>
+    </body>
+</html>
